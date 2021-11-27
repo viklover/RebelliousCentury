@@ -13,6 +13,7 @@ body {
    
     text-align: center;
     margin-bottom:40px;
+    
 }
 .adrian{
   text-align: center;  
@@ -37,11 +38,13 @@ body {
     border: 2px solid gray;
     text-align: center;
     border-radius:10%;
-    
+    border: 2px solid rebeccapurple;
 }
 img{
 border-radius: 10%;
+border: 2px solid rebeccapurple;
 }
 .text1{
    margin-top:40px; 
+   color:blue;
 }
