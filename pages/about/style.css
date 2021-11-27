@@ -1,6 +1,6 @@
 
 body {
-   background-color: black
+   background-color: white;
    
 }
 
@@ -10,5 +10,38 @@ body {
 
 .nik{
     
+   
+    text-align: center;
+    margin-bottom:40px;
+}
+.adrian{
+  text-align: center;  
+
+}
+.adrian1{
+
+}
+.row{
+    display:flex;
+    justify-content: space-around;
 }
 
+.row:last-child {
+    margin-top:40px;
+}
+
+.person {
+    width:280px;
+    height:400px;
+    background-color:black;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius:10%;
+    
+}
+img{
+border-radius: 10%;
+}
+.text1{
+   margin-top:40px; 
+}
