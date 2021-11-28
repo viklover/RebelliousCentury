@@ -21,19 +21,9 @@ $("[data-tooltip]").mousemove(function (eventObject) {
     }
 
 }).mouseout(function () {
-
-    if (window.matchMedia('(min-width: 1024px)').matches) {
-        $("#tooltip").text($data_tooltip)
-            .css({
-                "top" : 0,
-                "left" : 0
-            })
-            .show();
-    } else if (window.matchMedia('(min-width: 320px)').matches) {
-        $("#tooltip").hide()
-            .text("")
-            .css({
-                "display" : "none"
-            });
-    }
+    $("#tooltip").hide()
+        .text("")
+        .css({
+            "display" : "none"
+        });
 });
