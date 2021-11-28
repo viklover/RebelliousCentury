@@ -14,6 +14,10 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
+#head hr {
+    height: 1px;
+}
+
 #head .logo {
     margin: auto 10px;
     width: 23px;
@@ -37,7 +41,7 @@ body::-webkit-scrollbar {
 }
 
 #head hr {
-    width: 1000px;
+    width: 900px;
 }
 
 .pages {
@@ -213,4 +217,233 @@ body::-webkit-scrollbar {
     color: white;
     opacity: 0.7;
     border-radius: 5px;
-  }
+}
+
+@media(min-width: 320px) {
+
+    #head .container {
+        width: max-content;
+    }
+
+    #head .logo {
+        margin-left: 0;
+    }
+
+    #head hr {
+        display: none;
+    }
+
+    .content {
+        padding: 10px 15px;
+        width: auto;
+    }
+
+    .pages {
+        gap: 30px;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .pages .page {
+        margin: 0 auto;
+        height: 453px;
+        width: 290px;
+    }
+
+    .pages .page .container {
+        padding: 0;
+        width: 290px;
+    }
+
+    .pages .page .container p {
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pages .page .container .button {
+        position: absolute;
+        padding: 8px;
+        background-color: black;
+        color: white;
+        margin: 0 10px;
+        border: 2px solid white;
+        border-radius: 5px;
+        font-weight: bold;
+        height: 20px;
+        width: 250px;
+        bottom: 110px;
+        transition: 0.2s;
+    }
+
+    .pages .page .container .button:hover {
+        color: black;
+        background-color: white;
+    }
+
+    #foot main {
+        flex-direction: column;
+        width: auto;
+    }
+
+    #foot .description {
+        width: 275px;
+        margin-left: 0;
+    }
+
+    #foot .menu ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #foot .logo {
+        width: 200px;
+        height: 150px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    #foot .description {
+        margin: 10px auto;
+    }
+}
+
+@media(min-width: 768px) {
+
+    #head hr {
+        width: 240px;
+        display: inline-block;
+    }
+
+    .pages {
+        flex-direction: row;
+        gap: 0;
+    }
+    .pages .page {
+        height: 328px;
+        width: 210px;
+    }
+
+    .pages .page .container {
+        padding: 0 10px;
+        height: 328px;
+        width: 190px;
+    }
+
+    .pages .page .container .button {
+        bottom: 10px;
+        width: 170px;
+        margin: 0;
+    }
+
+    .pages .page header {
+        font-size: 24px;
+    }
+
+    .pages .page .container p {
+        width: 190px;
+    }
+
+    #foot main {
+        flex-direction: row;
+    }
+
+    #foot .menu ul {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    #foot hr {
+        width: 700px;
+    }
+
+    #foot .logo {
+        margin: 0;
+        width: 100px;
+        height: 60px;
+    }
+
+    #foot .description {
+        margin: auto 0;
+        width: 500px;
+    }
+
+
+}
+
+@media(min-width: 1024px) {
+
+    #head hr {
+        width: 360px;
+        display: inline-block;
+    }
+
+    .pages .page {
+        width: 280px;
+        height: 438px;
+        margin: 20px;
+    }
+
+    .pages .page .container {
+        width: 260px;
+        height: 438px;
+    }
+
+    .pages .page .container p {
+        width: 250px;
+    }
+
+    .pages .page .container .button {
+        width: 240px;
+    }
+
+    .content {
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 1280px) {
+
+    #head hr {
+        width: 450px;
+    }
+
+    .pages .page {
+        width: 350px;
+        height: 550px;
+    }
+
+    .pages .page .container {
+        padding: 0 20px;
+        width: 310px;
+        height: 550px;
+    }
+
+    .pages .page .container p {
+        font-size: 18px;
+        width: 310px;
+    }
+
+    .pages .page .container .button {
+        bottom: 10px;
+        width: 310px;
+        margin: 0;
+        left: 10px;
+    }
+
+    .content {
+        width: 1150px;
+        margin: 0 auto;
+    }
+
+}
+
+@media(min-width: 1600px) {
+
+    #head hr {
+        width: 600px;
+    }
+
+}

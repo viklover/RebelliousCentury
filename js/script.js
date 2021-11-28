@@ -1,5 +1,5 @@
 
-let pages = document.getElementsByClassName('page');
+let pages = document.getElementsByClassName('button');
 let links = [
     'pages/template/index.html',
     'pages/salt_riot/index.html',
