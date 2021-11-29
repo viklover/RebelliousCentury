@@ -51,9 +51,11 @@ border: 2px solid rebeccapurple;
 p{
   color:white;
   font-weight: bold;
+ 
 }
 .text2{
    color:black; 
+   margin-top:0;
 }
 .row1{
     margin-left:20px;
