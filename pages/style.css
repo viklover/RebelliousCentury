@@ -244,6 +244,14 @@ section {
 
 @media(min-width: 320px) {
 
+    .preview {
+        height: 400px;
+    }
+
+    .preview .blur {
+        height: 400px;
+    }
+
     #tooltip {
         margin: 0 20px;
     }
