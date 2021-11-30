@@ -1,0 +1,23 @@
+.salt_riot {
+    background-position: 0 -300px;
+}
+
+@media(min-width: 320px) {
+    .preview {
+        height: 490px;
+    }
+
+    .preview .blur {
+        height: 490px;
+    }
+}
+
+@media(min-width: 768px) {
+    .preview {
+        height: 400px;
+    }
+
+    .preview .blur {
+        height: 400px;
+    }
+}
