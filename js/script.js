@@ -1,16 +1,11 @@
 
-let pages = document.getElementsByClassName('button');
-let links = [
-    'pages/template/index.html',
-    'pages/salt_riot/index.html',
-    'pages/stepan_razin/index.html'
-]
+let buttons = document.getElementsByClassName('button');
 
-let i = 0;
-
-for(let i = 0; i < pages.length; ++i) {
-    pages[i].addEventListener('click', function() {
-        document.location.href = links[i];
+for(let i = 0; i < buttons.length; ++i) {
+    buttons[i].addEventListener('click', function() {
+        console.log(buttons[i].dataset.link);
+        // document.location.href = links[i];
+        document.location.href = buttons[i].dataset.link;
     });
 }
 
