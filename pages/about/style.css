@@ -1,0 +1,75 @@
+
+body {
+   background-color: white;
+   
+}
+
+.stepan_rain {
+    background-position: 0 -900px;
+}
+
+.nik{
+    
+   
+    text-align: center;
+    margin:0;
+
+}
+.adrian{
+  text-align: center;  
+
+}
+.adrian1{
+
+}
+.row{
+    display:flex;
+    justify-content: space-around;
+}
+
+.row:last-child {
+    margin-top:40px;
+}
+
+.person {
+    width:280px;
+    height:350px;
+    background-color:black;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius:10%;
+    border: 2px solid rebeccapurple;
+    transition: 0.2s;
+  
+}
+
+.person:hover {
+    transform: scale(1.05);
+    box-shadow:  0px 20px 20px rgba(0,0,0,0.7 ), 0 10px 10px rgba(0,0,0,0.1);
+    
+}
+
+img{
+border-radius: 50%;
+border: 2px solid rebeccapurple;
+}
+.text1{
+   margin-top:40px; 
+   color:blue;
+}
+p{
+  color:white;
+  font-weight: bold;
+ 
+}
+.text2{
+   color:black; 
+   margin-top:0;
+}
+.row1{
+    margin-left:20px;
+    display:flex;
+    justify-content: space-around;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
