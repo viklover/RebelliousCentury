@@ -75,11 +75,12 @@ img {
 }
 
 @media(min-width: 320px) {
+
     #img4{
         margin: auto;
         width: 50%;
-
     }
+
     #img4 img{
         width: 100%;
         height: 100%; 
@@ -96,6 +97,15 @@ img {
     .copper_riot {
         background-position: center;
         background-size: 1024px;
+        background-repeat: no-repeat;
+    }
+
+    .map-image {
+        margin: 0 auto;
+        width: 290px;
+        height: 350px;
+        background-image: url('images/raz1.jpg');
+        background-size: contain;
         background-repeat: no-repeat;
     }
 
@@ -129,7 +139,31 @@ img {
 
 }
 
+@media(min-width: 360px) {
+
+    .map-image {
+        width: 330px;
+        height: 400px;
+    }
+
+}
+
+@media(min-width: 425px) {
+
+    .map-image {
+        width: 360px;
+        height: 440px;
+    }
+
+}
+
 @media(min-width: 768px) {
+
+    .map-image {
+        width: 500px;
+        height: 600px;
+    }
+
     #img4 {
         margin: auto;
         width: 30%;  
@@ -163,6 +197,11 @@ img {
         background-position: 0 10%;
         background-size: 100%;
         background-repeat: no-repeat;
+    }
+
+    .map-image {
+        width: 550px;
+        height: 680px;
     }
 
     #img1 {
