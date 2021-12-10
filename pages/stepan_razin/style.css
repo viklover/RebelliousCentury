@@ -27,15 +27,25 @@ img {
     position: relative;
 }
 
-.text-block {
+.map-image {
+    border-radius: 1%;
+    overflow: hidden;
+    position: relative;
+}
+
+.map-image .text-block {
     position: absolute;
     background-color: black;
     color: white;
-    bottom: 0;
+    top: 0;
     width: 100%;
     text-align: center;
     opacity: 0;
     transition: 1s ease;
+}
+
+.map-image:hover .text-block {
+    opacity: 0.7;
 }
 
 .text {
@@ -100,15 +110,6 @@ img {
         background-repeat: no-repeat;
     }
 
-    .map-image {
-        margin: 0 auto;
-        width: 290px;
-        height: 350px;
-        background-image: url('images/raz1.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
     #img1 {
         margin: auto;
         width: 50%;
@@ -139,30 +140,7 @@ img {
 
 }
 
-@media(min-width: 360px) {
-
-    .map-image {
-        width: 330px;
-        height: 400px;
-    }
-
-}
-
-@media(min-width: 425px) {
-
-    .map-image {
-        width: 360px;
-        height: 440px;
-    }
-
-}
-
 @media(min-width: 768px) {
-
-    .map-image {
-        width: 500px;
-        height: 600px;
-    }
 
     #img4 {
         margin: auto;
@@ -176,6 +154,8 @@ img {
     }
 
     #img2 {
+        margin: auto;
+        width: 75%;
     }
 
     #img3 {
@@ -199,18 +179,13 @@ img {
         background-repeat: no-repeat;
     }
 
-    .map-image {
-        width: 550px;
-        height: 680px;
-    }
-
     #img1 {
         width: 70%;
         margin-left: 20px;
     }
 
     #img2 {
-        width: 290%;
+        width: 200%;
         margin: auto;
         margin-top: 20px;
         margin-right: 20px;
@@ -229,7 +204,8 @@ img {
     }
 
     #minus-margin1 {
-        margin-left: -374px;
+        /* margin-left: -374px; */
+        margin-left: 0;
     }
 }
 
@@ -241,7 +217,7 @@ img {
 
     #img2 {
         margin: 0;
-        width: 500%;
+        width: 175%;
         margin-right: 20px;
     }
     #img4 {
