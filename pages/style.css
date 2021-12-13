@@ -124,7 +124,7 @@ ul .item {
     position: relative;
 }
 
-.text-block {
+.image .text-block {
     position: absolute;
     background-color: black;
     color: white;
