@@ -135,6 +135,22 @@ body::-webkit-scrollbar {
     background-color: white;
 }
 
+ul {
+    padding-left: 20px;
+    display: block;
+    font-size: 19px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+ul .item {
+    display: inline-block;
+    width: 90%;
+    vertical-align: text-top;
+}
+
 .content p {
     font-size: 19px;
 }
