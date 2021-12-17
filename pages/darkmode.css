@@ -1,0 +1,46 @@
+
+.dark {
+    color: white;
+    background-color: #2F2E2E;
+}
+
+.dark #head .container {
+    background-color: #2F2E2E;
+}
+
+.dark .content {
+    background-color: #2F2E2E;
+    /*background-color: #494747;*/
+}
+
+.dark .tooltip {
+    color: #BD7100;
+}
+
+.dark a {
+    color: #BD7100;
+}
+
+.dark_mode {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/dark-mode.svg");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+    opacity: 1;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+.on {
+    background-image: url("../images/light-mode.svg");
+    border-color: black;
+}
+
+.dark_mode:hover {
+    opacity: 0.6;
+}
