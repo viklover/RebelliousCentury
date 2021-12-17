@@ -162,6 +162,47 @@ ul .item {
     margin-top: 0;
 }
 
+.content footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.content footer svg {
+    /*fill: white;*/
+}
+
+.content footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content footer .flex-end {
+    margin-top: 15px;
+    justify-content: flex-end;
+}
+
+.content footer .button {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.content footer .button svg {
+    fill: black;
+}
+
+.content footer .button text {
+    fill: white;
+}
+
+.content footer .button:hover svg {
+    fill: gray;
+    /*border: 2px solid white;*/
+}
+
+.dark .content footer .button:hover text {
+    fill: black;
+}
+
 section {
     margin-top: 30px;
 }
@@ -296,7 +337,30 @@ section {
         padding: 10px;
     }
 
-    .row {
+    .content footer .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content footer .row .button {
+        display: flex;
+        width: auto;
+        height: 40px;
+    }
+
+    .content footer .row .left svg {
+        margin-left: -10px;
+    }
+
+    .content footer .row .right {
+        justify-content: flex-end;
+    }
+
+    .content footer .row .right svg {
+        margin-right: -10px;
+    }
+
+    .content section .row {
         flex-direction: column;
     }
 
@@ -360,6 +424,14 @@ section {
         padding: 20px;
     }
 
+    .content footer .row {
+        flex-direction: row;
+    }
+
+    .content footer .row .button {
+        display: block;
+    }
+
     #foot main {
         flex-direction: row;
     }
@@ -393,10 +465,19 @@ section {
         margin: 0 auto;
     }
 
-    .row {
+    .content section .row {
         display: flex;
         flex-direction: row;
     }
+
+    .content footer .row .left svg {
+        margin-left: 0;
+    }
+
+    .content footer .row .right svg {
+        margin-right: 0;
+    }
+
     .image img {
         transform: scale(1.04);
     }
