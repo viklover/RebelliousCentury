@@ -58,7 +58,7 @@ img {
     height: 300px;
 }
 
-.copper_riot {
+.final {
     background-position: center 30%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -75,14 +75,36 @@ img {
     height: 1px;
 }
 
-.content {
-    padding: 30px 30px;
-}
-
 .row {
     display: flex;
 }
 
 .block_with_img {
     width: auto;
+}
+
+@media(min-width: 320px) {
+
+    .final {
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: 768px;
+    }
+
+}
+
+@media(min-width: 768px) {
+
+    .final {
+        background-size: 1024px;
+    }
+
+}
+
+@media(min-width: 1024px) {
+
+    .final {
+        background-size: 100%;
+    }
+
 }
