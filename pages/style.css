@@ -126,7 +126,7 @@ ul .item {
     position: relative;
 }
 
-.text-block {
+.image .text-block {
     position: absolute;
     background-color: black;
     color: white;
@@ -146,6 +146,7 @@ ul .item {
 }
 
 .image img {
+    transition: 1s;
     transform: scale(1.01);
 }
 
@@ -187,6 +188,7 @@ ul .item {
 
 .content footer .button svg {
     fill: black;
+    transition: 0.1s ease;
 }
 
 .content footer .button text {
@@ -395,6 +397,7 @@ section {
         height: 150px;
         background-repeat: no-repeat;
         margin: 0 auto;
+        cursor: pointer;
     }
 
     #foot .description {
@@ -437,7 +440,12 @@ section {
 
     #foot .menu ul {
         flex-direction: row;
-        gap: 25px;
+        gap: 20px;
+        margin: 0;
+    }
+
+    #foot .menu a {
+        font-size: 16px;
     }
 
     #foot hr {
@@ -455,6 +463,22 @@ section {
         width: 500px;
     }
 
+}
+
+@media(min-width: 790px) {
+    #foot .menu ul {
+        flex-direction: row;
+        gap: 25px;
+    }
+}
+
+@media(min-width: 900px) {
+    #foot .menu ul {
+        margin: 10px 0 20px;
+    }
+    #foot .menu a {
+        font-size: 18px;
+    }
 }
 
 @media(min-width: 1024px) {
