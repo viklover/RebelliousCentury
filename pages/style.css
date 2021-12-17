@@ -397,6 +397,7 @@ section {
         height: 150px;
         background-repeat: no-repeat;
         margin: 0 auto;
+        cursor: pointer;
     }
 
     #foot .description {
