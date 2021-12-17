@@ -33,6 +33,7 @@ body::-webkit-scrollbar {
     min-width: 270px;
     height: 70px;
     background-color: white;
+    cursor: pointer;
 }
 
 #head h1 {
