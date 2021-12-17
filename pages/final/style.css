@@ -1,0 +1,88 @@
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    padding-left: 20px;
+    display: block;
+    font-size: 18px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+img {
+    transition: transform 1s ease;
+}
+
+.images {
+    border-radius: 1%;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.text {
+    margin: 8px;
+}
+
+.images:hover img {
+    transform: scale(1.05);
+}
+
+.images:hover .text-block {
+    opacity: 0.7;
+}
+
+.preview {
+    height: 300px;
+}
+
+.preview .blur {
+    height: 300px;
+}
+
+.copper_riot {
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.block {
+    display: inline-block;
+    width: 90%;
+    vertical-align: text-top;
+}
+
+.line {
+    margin-top: 50px;
+    height: 1px;
+}
+
+.content {
+    padding: 30px 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.block_with_img {
+    width: auto;
+}
