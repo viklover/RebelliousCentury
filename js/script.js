@@ -9,3 +9,8 @@ for(let i = 0; i < buttons.length; ++i) {
     });
 }
 
+let arrow = document.getElementsByClassName('arrow')[0];
+
+arrow.addEventListener('click', function () {
+    document.location.href = arrow.dataset.link;
+});
