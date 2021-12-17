@@ -72,18 +72,33 @@ i {
 
 @media(min-width: 1024px) {
 
+    #paragraph2 {
+        margin-right: -275px;
+    }
+
     #img1 {
         margin: auto;
         margin-left: 20px;
-        width: 300%;
+        width: 520%;
+        margin-bottom: 0;
     }
 }
 
 @media(min-width: 1280px) {
 
+    #paragraph2 {
+        margin-right: 0;
+    }
+
+    #paragraph3 {
+        margin-right: -443px;
+    }
+
     #img1 {
-        width: 180%;
-        margin-bottom: -60px;
+        margin: auto;
+        margin-left: 20px;
+        margin-top: 120px;
+        width: 700%;
         bottom: 45px;
     }
 
