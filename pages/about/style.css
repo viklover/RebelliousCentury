@@ -1,7 +1,6 @@
 
 body {
-   background-color: white;
-   
+    background-color: white;
 }
 
 .stepan_rain {
@@ -12,21 +11,16 @@ body {
     color: white;
 }
 
-.nik{
-    
-   
+.nik {
     text-align: center;
     margin:0;
-
 }
-.adrian{
-  text-align: center;  
 
+.adrian {
+    text-align: center;
 }
-.adrian1{
 
-}
-.row{
+.row {
     display:flex;
     justify-content: space-around;
 }
@@ -44,36 +38,127 @@ body {
     border-radius:10%;
     border: 2px solid rebeccapurple;
     transition: 0.2s;
-  
 }
 
 .person:hover {
     transform: scale(1.05);
     box-shadow:  0px 20px 20px rgba(0,0,0,0.7 ), 0 10px 10px rgba(0,0,0,0.1);
-    
 }
 
-img{
-border-radius: 50%;
-border: 2px solid rebeccapurple;
+img {
+    border-radius: 50%;
+    border: 2px solid rebeccapurple;
+    width: 200px;
+    height: 200px;
 }
-.text1{
-   margin-top:40px; 
-   color:blue;
+
+.text1 {
+    margin-top:40px;
+    color:blue;
 }
-p{
-  color:white;
-  font-weight: bold;
- 
+
+p {
+    color:white;
+    font-weight: bold;
 }
+
 .text2{
-   color:black; 
-   margin-top:0;
+    color:black;
+    margin-top:0;
 }
+
 .row1{
     margin-left:20px;
     display:flex;
     justify-content: space-around;
     margin-top:40px;
     margin-bottom: 40px;
+}
+
+@media(min-width: 320px) {
+
+    .row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .row1 {
+        flex-direction: column;
+        margin: 15px 0 0 0;
+        gap: 15px;
+    }
+
+    .person {
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 284px;
+        margin: 0 auto;
+    }
+
+    #fir_header {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #sec_header {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media(min-width: 768px) {
+
+    #fir_header {
+        margin-bottom: 30px;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .row1 {
+        flex-direction: row;
+    }
+
+    .person {
+        width: 230px;
+        height: 287.5px;
+    }
+
+    img {
+        width: 164px;
+        height: 164px;
+    }
+
+    .container {
+        width: 600px;
+    }
+}
+
+@media(min-width: 1024px) {
+
+    #fir_header {
+        font-size: 35px;
+    }
+
+    #sec_header {
+        font-size: 35px;
+    }
+
+    .person {
+        width: 280px;
+        height: 350px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container {
+        width: 800px;
+    }
+
 }
