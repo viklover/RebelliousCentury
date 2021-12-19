@@ -179,6 +179,10 @@ img {
         background-repeat: no-repeat;
     }
 
+    #list1 {
+        margin-left: 10px;
+    }
+
     #img1 {
         width: 70%;
         margin-left: 20px;
