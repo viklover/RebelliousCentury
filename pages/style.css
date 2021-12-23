@@ -479,6 +479,9 @@ section {
     #foot .menu a {
         font-size: 18px;
     }
+    #foot hr {
+        width: 770px;
+    }
 }
 
 @media(min-width: 1024px) {
