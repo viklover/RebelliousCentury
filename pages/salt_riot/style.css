@@ -110,3 +110,11 @@ i {
         height: 480px;
     }
 }
+
+@media(min-width: 1921px) {
+
+    .salt_riot {
+        background-size: 100%;
+    }
+
+}
