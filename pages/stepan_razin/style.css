@@ -82,16 +82,6 @@ img {
 
 .block_with_img {
     width: auto;
-} 
-#foot .logo {
-    background-image: url("images/Avatar2invers.png");
-    background-position: center;
-}
-
-.dark #foot .logo {
-    background-image: url("images/Avatar2.svg");
-    background-position: center;
-    
 }
 
 @media(min-width: 320px) {
