@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="../style.css">
         <link rel="stylesheet" href="../darkmode.css">
         <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="../simplebox.min.css">
     </head>
     <body>
         <header id="head">
@@ -178,7 +180,7 @@
                 <h2>Развитие и ход воссстания:</h2>
                 <div class="row">
                     <div id="img2" class="map-image">
-                        <img src="images/raz1.jpg">
+                        <img class="slb" src="images/raz1.jpg">
                         <div class="text-block">
                             <p class="text">Карта восстания</p>
                         </div>
@@ -374,5 +376,15 @@
         <script src="../darkmode.js"></script>
         <script src="../headlogo.js"></script>
         <script src="../arrows.js"></script>
+        <script src="../simplebox.min.js"></script>
+
+        <script>
+            $(function () {
+                $(".slb").simplebox({
+                    fadeSpeed: 200,
+                    darkMode: true
+                });
+            });
+        </script>
     </body>
 </html>
