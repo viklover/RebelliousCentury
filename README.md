@@ -1,11 +1,11 @@
-# Бунташный век (История, Команда №5)
+Rebellious Century
+====================================
+Teammates:
+ - Vorobyev Mihail
+ - Sadovnikov Artyom
+ - Troyan Nikita
+ - Litvintsev Adrian
+ - Dremov Oleg
 
-Участники:
- - Воробьев Михаил
- - Садовников Артём
- - Троян Никита
- - Литвинцев Адриан
- - Дрёмов Олег
-
-Текст:
+Text:
 https://docs.google.com/document/d/1c8o2gZcIEm4QY3GbvYieww13-ZWFvEv2v5TlvAlCtI8/edit?usp=sharing
