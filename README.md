@@ -1,5 +1,8 @@
 Rebellious Century
 ====================================
+
+[Preview presentation](Презентация.pdf)
+
 Teammates:
  - Vorobyev Mihail
  - Sadovnikov Artyom
